@@ -13,6 +13,7 @@ func main() {
 	file, _ := os.ReadFile(os.Args[1])
 	lines := strings.Split(string(file), "\n")
 
+	
 	rows := len(lines)
 	cols := len(lines[0])
 
